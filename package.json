@@ -17,6 +17,7 @@
 	"type": "module",
 	"scripts": {
 		"build": "node build.js",
+		"start": "node lib/index.cjs", 
 		"dev": "node build.js --dev",
 		"prepack": "npm run build",
 		"format": "prettier --config .prettierrc.js --write .",
