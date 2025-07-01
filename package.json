@@ -17,7 +17,7 @@
 	"type": "module",
 	"scripts": {
 		"build": "node build.js",
-		"start": "node server.js", 
+		"start": "node server.js",
 		"dev": "node build.js --dev",
 		"prepack": "npm run build",
 		"format": "prettier --config .prettierrc.js --write .",
@@ -40,6 +40,7 @@
 		"idb": "^8.0.2",
 		"meriyah": "^6.0.5",
 		"parse5": "^7.2.1",
+		"serve-static": "^2.2.0",
 		"set-cookie-parser": "^2.7.1"
 	}
 }
